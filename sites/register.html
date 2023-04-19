@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="../scripts/registration.css">
+    <link rel="stylesheet" href="../scripts/fonts.css">
+    <script src="https://kit.fontawesome.com/0570a38b79.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <video autoplay loop muted>
+        <source src="../video/background.mp4" type="video/mp4">
+    </video>
+    <div class="register-box">
+		<form>
+			<div class="user-box">
+				<input type="text" name="" required placeholder="Username">
+			</div>
+            <div class="user-box">
+                <input type="email" id="email" name="email" required placeholder="Email">
+            </div>
+			<div class="user-box">
+				<input type="password" name="" required placeholder="Password">
+			</div>
+			<input type="submit" name="" value="Create your account">
+		</form>
+        <div class="login-icons">
+            <a href="https://appleid.apple.com/auth/authorize?response_type=code&client_id=0987654321&redirect_uri=http%3A%2F%2Fexample.com%2Fapple_login&state=STATE&scope=email"><i class="fab fa-apple"></i></a>
+            <a href="https://accounts.google.com/o/oauth2/auth?client_id=9876543210-abcd1234efgh5678ijklmnopqrstuvwxyz.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Fexample.com%2Fgoogle_login&response_type=code&scope=email%20profile"><i class="fab fa-google"></i></a>
+            <a href="https://www.facebook.com/login.php?app_id=1234567890&next=http%3A%2F%2Fexample.com%2Ffacebook_login&scope=email"><i class="fab fa-facebook"></i></a> 
+        </div>
+        <p>If you already own an account, login <a href="../index.html">here</a></p>
+    </div>
+</body>
+</html>
