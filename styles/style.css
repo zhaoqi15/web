@@ -42,6 +42,11 @@ body {
     transition: 1s;
 }
 
+.login-box input[type="text"]:hover::placeholder,
+.login-box input[type="password"]:hover::placeholder {
+  color: #000;
+  transition: 1s;
+}
 
 .login-box input[type="submit"] {
     appearance: none;
@@ -93,7 +98,8 @@ body {
 }
 
 .login-box ::placeholder{
-    color: rgb(58, 53, 53);
+    color: #333;
+    transition: 1s;
 }
 
 p {
