@@ -42,11 +42,6 @@ body {
     transition: 1s;
 }
 
-.login-box input[type="text"]:hover::placeholder,
-.login-box input[type="password"]:hover::placeholder {
-  color: #000;
-  transition: 1s;
-}
 
 .login-box input[type="submit"] {
     appearance: none;
@@ -83,9 +78,6 @@ body {
 
 .login-box input[type="submit"]:disabled {
     pointer-events: none;
-}
-
-.login-box input[type="submit"]:hover {
     color: #ffffff;
     background-color: #1A1A1A;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
@@ -102,7 +94,7 @@ body {
     transition: 1s;
 }
 
-p {
+.accnew {
     font-size: x-small;
     text-align: center;
     font-family: "poppins", sans-serif;
@@ -120,3 +112,13 @@ p {
 .login-icons a{
     color: black;
 }
+
+.getcancer{
+    display: flex;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+    color: black;
+  }
+  

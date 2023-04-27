@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/animations.css">
     <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script type = "text/javascript" src="./scripts/darkmode.js"></script>
+
     <script src="https://kit.fontawesome.com/0570a38b79.js" crossorigin="anonymous"></script>
     <title>Ascension</title>
 </head>
@@ -28,36 +30,15 @@
 			<a href="https://appleid.apple.com/auth/authorize?response_type=code&client_id=0987654321&redirect_uri=http%3A%2F%2Fexample.com%2Fapple_login&state=STATE&scope=email"><i class="fab fa-apple"></i></a>
 			<a href="https://accounts.google.com/o/oauth2/auth?client_id=9876543210-abcd1234efgh5678ijklmnopqrstuvwxyz.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Fexample.com%2Fgoogle_login&response_type=code&scope=email%20profile"><i class="fab fa-google"></i></a>
 			<a href="https://www.facebook.com/login.php?app_id=1234567890&next=http%3A%2F%2Fexample.com%2Ffacebook_login&scope=email"><i class="fab fa-facebook"></i></a> 
-		</div>
-		<p>If you don't own an account, register <a href="./sites/register.html">here</a></p>
-	</div>
-    <script>
-const logins = [
-    { username: "flaviu", password: "pass1" },
-    { username: "user2", password: "pass2" },
-    { username: "user3", password: "pass3" }
-];
+            <!--<a href="./sites/*site*.html"><p>Test Sites</p></a>-->
+        </div>
+		<p class="accnew">If you don't own an account, register <a href="./sites/register.html">here</a></p>
+        <div class="getcancer">
+        <i class="fa-solid fa-moon"></i>
+        </div>
 
-const loginForm = document.getElementById("login-form");
-loginForm.addEventListener("submit", function(event) {
-    event.preventDefault();
-    
-    const usernameInput = document.getElementsByName("username")[0];
-    const passwordInput = document.getElementsByName("password")[0];
-    const username = usernameInput.value;
-    const password = passwordInput.value;
-    
-    const matchingLogin = logins.find(function(login) {
-        return login.username === username && login.password === password;
-    });
-    
-    if (matchingLogin) {
-        alert("Logged in successfully!");
-    } else {
-        alert("Incorrect username or password.");
-    }
-    
-});
-    </script>
+	</div>
+<script>
+</script>
 </body>
 </html>
