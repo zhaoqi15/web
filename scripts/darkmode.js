@@ -25,18 +25,17 @@ loginForm.addEventListener("submit", function(event) {
     
 });*/
 
-const darkmodeBtn = document.querySelector('.getcancer');
+const darkModeBtn = document.querySelector('.getcancer');
 const loginIcons = document.querySelectorAll('.login-icons a');
 const loginBox = document.querySelector('.login-box');
 const placeholders = document.querySelectorAll('.login-box input[type="text"], .login-box input[type="password"]');
 
 
-darkmodeBtn.addEventListener('click', () => {
+darkModeBtn.addEventListener('click', () => {
 loginIcons.forEach(icon => {
     icon.style.color = 'white';
 });
 
 loginBox.style.color = 'white';
 loginBox.style.backgroundColor = 'black';
-loginBox.input.style.color = 'white'
 });
