@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./styles/animations.css">
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <script src="./scripts/darkmode.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./scripts/login.js"></script>
     <script src="https://kit.fontawesome.com/0570a38b79.js" crossorigin="anonymous"></script>
     <title>Ascension</title>
 </head>
@@ -18,10 +19,10 @@
     <div class="login-box">
 		<form id="login-form">
 			<div class="user-box">
-				<input type="text" name="username" required placeholder="Username or email">
+				<input type="text" name="username" required placeholder="Username or email" id="username">
 			</div>
 			<div class="user-box">
-				<input type="password" name="password" required placeholder="Password">
+				<input type="password" name="password" required placeholder="Password" id="password">
 			</div>
 			<input type="submit" name="submit" value="Log in" id="login">
 		</form>
